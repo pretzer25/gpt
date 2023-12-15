@@ -19,7 +19,7 @@ class Website:
                 'function': self._chat,
                 'methods': ['GET', 'POST']
             },
-            '/assets/<folder>/<file>': {
+            '/client/<folder>/<file>': {
                 'function': self._assets,
                 'methods': ['GET', 'POST']
             }
